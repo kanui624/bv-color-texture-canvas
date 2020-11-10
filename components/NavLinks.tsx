@@ -18,7 +18,7 @@ const navLinks = [
 
 const NavLinks = () => {
   return (
-    <div className="absolute list-none">
+    <div className="absolute list-none z-50">
       {navLinks.map(({ id, title, link }: Palette) => (
         <li key={id} className="">
           <Link href={`/${link}`}>

@@ -14,10 +14,10 @@ import feelingOneStyles from '../styles/feelings-styles/feelingOne.module.css';
 
 const PaletteOne = () => {
   const colorArr: ColorArray[] = [
-    { id: 1, color: '#9AD3BC' },
-    { id: 2, color: '#F3EAC2' },
-    { id: 3, color: '#F5B461' },
-    { id: 4, color: '#EC524B' },
+    { id: 1, color: '#9AD3BC', textColor: '#ff9a8c' },
+    { id: 2, color: '#ff9a8c', textColor: '#9AD3BC' },
+    { id: 3, color: '#e79e4f', textColor: '#16a596' },
+    { id: 4, color: '#16a596', textColor: '#e79e4f' },
   ];
   return (
     <>

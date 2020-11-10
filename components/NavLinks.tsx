@@ -12,8 +12,8 @@ interface Palette {
 
 const navLinks: Palette[] = [
   { id: 1, title: 'Palette One', link: '' },
-  { id: 2, title: 'Palette Two', link: 'feelingtwo' },
-  { id: 3, title: 'Palette Three', link: 'feelingthree' },
+  { id: 2, title: 'Palette Two', link: 'palettetwo' },
+  { id: 3, title: 'Palette Three', link: 'palettethree' },
 ];
 
 const NavLinks = () => {

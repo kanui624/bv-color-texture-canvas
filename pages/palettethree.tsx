@@ -11,23 +11,18 @@ import ColorArray from '../interfaces/ColorArray';
 
 // CSS
 
-const feelingThree = () => {
+const PaletteThree = () => {
   const colorArr: ColorArray[] = [
     { id: 1, color: '#01C5C4' },
     { id: 2, color: '#B8DE6F' },
     { id: 3, color: '#F1E189' },
     { id: 4, color: '#F39233' },
-    { id: 5, color: '#01C5C4' },
-    { id: 6, color: '#B8DE6F' },
-    { id: 7, color: '#F1E189' },
-    { id: 8, color: '#F39233' },
-    { id: 9, color: '#01C5C4' },
   ];
 
   return (
     <>
       <Head>
-        <title>Palette One</title>
+        <title>Palette Three</title>
       </Head>
       <Layout cName="container mx-auto">
         <NavLinks />
@@ -37,4 +32,4 @@ const feelingThree = () => {
   );
 };
 
-export default feelingThree;
+export default PaletteThree;

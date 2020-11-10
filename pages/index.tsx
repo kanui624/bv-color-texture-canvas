@@ -12,22 +12,17 @@ import ColorArray from '../interfaces/ColorArray';
 // CSS
 import feelingOneStyles from '../styles/feelings-styles/feelingOne.module.css';
 
-const feelingOne = () => {
+const PaletteOne = () => {
   const colorArr: ColorArray[] = [
     { id: 1, color: '#9AD3BC' },
     { id: 2, color: '#F3EAC2' },
     { id: 3, color: '#F5B461' },
     { id: 4, color: '#EC524B' },
-    { id: 5, color: '#9AD3BC' },
-    { id: 6, color: '#F3EAC2' },
-    { id: 7, color: '#F5B461' },
-    { id: 8, color: '#EC524B' },
-    { id: 9, color: '#9AD3BC' },
   ];
   return (
     <>
       <Head>
-        <title>Feeling Palette One</title>
+        <title>Palette One</title>
       </Head>
       <Layout cName="container mx-auto">
         <NavLinks />
@@ -37,4 +32,4 @@ const feelingOne = () => {
   );
 };
 
-export default feelingOne;
+export default PaletteOne;

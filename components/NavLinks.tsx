@@ -18,7 +18,10 @@ const navLinks = [
 
 const NavLinks = () => {
   return (
-    <div className="absolute list-none z-50">
+    <div
+      className="flex justify-between items-center list-none z-50 max-w-full"
+      style={{ backgroundColor: 'white' }}
+    >
       {navLinks.map(({ id, title, link }: Palette) => (
         <li key={id} className="">
           <Link href={`/${link}`}>

@@ -11,19 +11,19 @@ interface Palette {
 }
 
 const navLinks = [
-  { id: 1, title: 'Feeling Palette One', link: '' },
-  { id: 2, title: 'Feeling Palette Two', link: 'feelingtwo' },
-  { id: 3, title: 'Feeling Palette Three', link: 'feelingthree' },
+  { id: 1, title: 'Palette One', link: '' },
+  { id: 2, title: 'Palette Two', link: 'feelingtwo' },
+  { id: 3, title: 'Palette Three', link: 'feelingthree' },
 ];
 
 const NavLinks = () => {
   return (
     <div
-      className="flex justify-between items-center list-none z-50 max-w-full"
+      className="grid grid-cols-3 col-auto list-none z-50 max-w-full"
       style={{ backgroundColor: 'white' }}
     >
       {navLinks.map(({ id, title, link }: Palette) => (
-        <li key={id} className="">
+        <li key={id} style={{ border: '2px solid black', textAlign: 'center' }}>
           <Link href={`/${link}`}>
             <a className={navStyles.hover}>{title}</a>
           </Link>

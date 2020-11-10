@@ -11,15 +11,15 @@ import feelingOneStyles from '../styles/feelings-styles/feelingOne.module.css';
 
 const feelingOne = () => {
   const colorArr = [
-    { id: 1, color: '#16A596' },
-    { id: 2, color: '#898b8a' },
-    { id: 3, color: '#fae0df' },
-    { id: 4, color: '#f6f5f1' },
-    { id: 5, color: 'black' },
-    { id: 6, color: 'black' },
-    { id: 7, color: 'black' },
-    { id: 8, color: 'black' },
-    { id: 9, color: 'black' },
+    { id: 1, color: '#9AD3BC' },
+    { id: 2, color: '#F3EAC2' },
+    { id: 3, color: '#F5B461' },
+    { id: 4, color: '#EC524B' },
+    { id: 5, color: '#9AD3BC' },
+    { id: 6, color: '#F3EAC2' },
+    { id: 7, color: '#F5B461' },
+    { id: 8, color: '#EC524B' },
+    { id: 9, color: '#9AD3BC' },
   ];
   return (
     <>

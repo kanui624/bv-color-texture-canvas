@@ -10,15 +10,15 @@ import Quadrants from '../components/Quadrants';
 
 const feelingThree = () => {
   const colorArr = [
-    { id: 1, color: '#16A596' },
-    { id: 2, color: '#898b8a' },
-    { id: 3, color: '#fae0df' },
-    { id: 4, color: '#f6f5f1' },
-    { id: 5, color: 'black' },
-    { id: 6, color: 'black' },
-    { id: 7, color: 'black' },
-    { id: 8, color: 'black' },
-    { id: 9, color: 'black' },
+    { id: 1, color: '#01C5C4' },
+    { id: 2, color: '#B8DE6F' },
+    { id: 3, color: '#F1E189' },
+    { id: 4, color: '#F39233' },
+    { id: 5, color: '#01C5C4' },
+    { id: 6, color: '#B8DE6F' },
+    { id: 7, color: '#F1E189' },
+    { id: 8, color: '#F39233' },
+    { id: 9, color: '#01C5C4' },
   ];
 
   return (

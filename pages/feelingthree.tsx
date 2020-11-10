@@ -6,10 +6,13 @@ import Layout from '../components/Layout';
 import NavLinks from '../components/NavLinks';
 import Quadrants from '../components/Quadrants';
 
+// Interfaces
+import ColorArray from '../interfaces/ColorArray';
+
 // CSS
 
 const feelingThree = () => {
-  const colorArr = [
+  const colorArr: ColorArray[] = [
     { id: 1, color: '#01C5C4' },
     { id: 2, color: '#B8DE6F' },
     { id: 3, color: '#F1E189' },
@@ -24,7 +27,7 @@ const feelingThree = () => {
   return (
     <>
       <Head>
-        <title>Feeling Palette One</title>
+        <title>Palette One</title>
       </Head>
       <Layout cName="container mx-auto">
         <NavLinks />

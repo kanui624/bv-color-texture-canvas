@@ -10,7 +10,7 @@ interface Palette {
   link: string;
 }
 
-const navLinks = [
+const navLinks: Palette[] = [
   { id: 1, title: 'Palette One', link: '' },
   { id: 2, title: 'Palette Two', link: 'feelingtwo' },
   { id: 3, title: 'Palette Three', link: 'feelingthree' },
@@ -23,11 +23,13 @@ const NavLinks = () => {
       style={{ backgroundColor: 'white' }}
     >
       {navLinks.map(({ id, title, link }: Palette) => (
-        <li key={id} style={{ border: '2px solid black', textAlign: 'center' }}>
-          <Link href={`/${link}`}>
-            <a className={navStyles.hover}>{title}</a>
-          </Link>
-        </li>
+        <Link key={id} href={`/${link}`}>
+          <a className={navStyles.hover}>
+            <li style={{ border: '2px solid black', textAlign: 'center' }}>
+              {title}{' '}
+            </li>
+          </a>
+        </Link>
       ))}
     </div>
   );

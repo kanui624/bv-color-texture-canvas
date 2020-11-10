@@ -6,11 +6,14 @@ import Layout from '../components/Layout';
 import NavLinks from '../components/NavLinks';
 import Quadrants from '../components/Quadrants';
 
+// Interfaces
+import ColorArray from '../interfaces/ColorArray';
+
 // CSS
 import feelingOneStyles from '../styles/feelings-styles/feelingOne.module.css';
 
 const feelingOne = () => {
-  const colorArr = [
+  const colorArr: ColorArray[] = [
     { id: 1, color: '#9AD3BC' },
     { id: 2, color: '#F3EAC2' },
     { id: 3, color: '#F5B461' },

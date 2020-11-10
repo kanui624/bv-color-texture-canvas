@@ -6,11 +6,14 @@ import Layout from '../components/Layout';
 import NavLinks from '../components/NavLinks';
 import Quadrants from '../components/Quadrants';
 
+// Interfaces
+import ColorArray from '../interfaces/ColorArray';
+
 // CSS
 import feelingTwoStyles from '../styles/feelingTwo.module.css';
 
 const feelingTwo = () => {
-  const colorArr = [
+  const colorArr: ColorArray[] = [
     { id: 1, color: '#16A596' },
     { id: 2, color: '#898b8a' },
     { id: 3, color: '#fae0df' },

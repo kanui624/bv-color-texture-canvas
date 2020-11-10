@@ -3,11 +3,11 @@ import { ReactNode } from 'react';
 import layoutStyles from '../styles/layout.module.css';
 
 interface Props {
-  cName?: string;
   children: React.ReactNode;
+  cName?: string;
 }
 
-const Layout = ({ cName, children }: Props) => {
+const Layout = ({ children, cName }: Props) => {
   return <div className={`fixed inset-0 ${cName}`}>{children}</div>;
 };
 

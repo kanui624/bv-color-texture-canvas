@@ -11,10 +11,30 @@ import ColorArray from '../interfaces/ColorArray';
 
 const PaletteThree = () => {
   const colorArr: ColorArray[] = [
-    { id: 1, color: '#835858', textColor: 'white' },
-    { id: 2, color: '#bedbbb', textColor: 'black' },
-    { id: 3, color: '#89beb3', textColor: 'white' },
-    { id: 4, color: '#f5dea3', textColor: 'black' },
+    {
+      id: 1,
+      color: '#d49a89',
+      textColor: 'white',
+      fontFamily: 'Thasadith, sans-serif',
+    },
+    {
+      id: 2,
+      color: '#bedbbb',
+      textColor: 'black',
+      fontFamily: 'Patrick Hand, cursive',
+    },
+    {
+      id: 3,
+      color: '#8fc0a9',
+      textColor: 'white',
+      fontFamily: 'Annie Use Your Telescope, cursive',
+    },
+    {
+      id: 4,
+      color: '#decdc3',
+      textColor: 'black',
+      fontFamily: 'Delius, cursive',
+    },
   ];
 
   return (

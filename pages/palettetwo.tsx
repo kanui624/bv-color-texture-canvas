@@ -16,8 +16,8 @@ const PaletteTwo = () => {
   const colorArr: ColorArray[] = [
     { id: 1, color: '#463333', textColor: '#835858' },
     { id: 2, color: '#835858', textColor: '#463333' },
-    { id: 3, color: '#ebd4d4', textColor: '#835858' },
-    { id: 4, color: '#fff0f0', textColor: '#463333' },
+    { id: 3, color: '#cbe2b0', textColor: '#835858' },
+    { id: 4, color: '#f5dea3', textColor: '#463333' },
   ];
   return (
     <>

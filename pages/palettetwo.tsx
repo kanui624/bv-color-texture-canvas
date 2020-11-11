@@ -2,8 +2,6 @@
 import Head from 'next/head';
 
 // Components
-import Layout from '../components/Layout';
-import NavLinks from '../components/NavLinks';
 import Quadrants from '../components/Quadrants';
 
 // Interfaces
@@ -14,20 +12,17 @@ import feelingTwoStyles from '../styles/feelingTwo.module.css';
 
 const PaletteTwo = () => {
   const colorArr: ColorArray[] = [
-    { id: 1, color: '#463333', textColor: '#835858' },
-    { id: 2, color: '#835858', textColor: '#463333' },
-    { id: 3, color: '#cbe2b0', textColor: '#835858' },
-    { id: 4, color: '#f5dea3', textColor: '#463333' },
+    { id: 1, color: '#463333', textColor: 'white' },
+    { id: 2, color: '#835858', textColor: 'white' },
+    { id: 3, color: '#cbe2b0', textColor: 'black' },
+    { id: 4, color: '#ffeadb', textColor: 'black' },
   ];
   return (
     <>
       <Head>
         <title>Palette Two</title>
       </Head>
-      <Layout cName="container mx-auto">
-        <NavLinks />
-        <Quadrants colors={colorArr} />
-      </Layout>
+      <Quadrants colors={colorArr} />
     </>
   );
 };

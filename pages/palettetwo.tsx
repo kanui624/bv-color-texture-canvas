@@ -11,17 +11,17 @@ const PaletteTwo = () => {
   const colorArr: ColorArray[] = [
     {
       id: 1,
-      color: '#cbbcb1',
+      color: '#f5f1da',
       fontFamily: 'Patrick Hand, cursive',
     },
     {
       id: 2,
-      color: '#835858',
+      color: '#cbe2b0',
       fontFamily: 'Annie Use Your Telescope, cursive',
     },
     {
       id: 3,
-      color: '#cbe2b0',
+      color: '#96bb7c',
       fontFamily: 'Thasadith, sans-serif',
     },
     {

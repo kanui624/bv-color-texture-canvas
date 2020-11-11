@@ -11,7 +11,7 @@ const PaletteOne = () => {
   const colorArr: ColorArray[] = [
     {
       id: 1,
-      color: '#463333',
+      color: '#f5f1da',
       fontFamily: 'Annie Use Your Telescope, cursive',
     },
     {
@@ -21,12 +21,12 @@ const PaletteOne = () => {
     },
     {
       id: 3,
-      color: '#f5f1da',
+      color: '#86b885',
       fontFamily: 'Delius, cursive',
     },
     {
       id: 4,
-      color: '#ebcfc4',
+      color: '#4a3f35',
       fontFamily: 'Pangolin, cursive',
     },
   ];

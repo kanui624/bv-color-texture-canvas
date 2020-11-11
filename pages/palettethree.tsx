@@ -11,22 +11,22 @@ const PaletteThree = () => {
   const colorArr: ColorArray[] = [
     {
       id: 1,
-      color: '#d49a89',
+      color: '#fff8cd',
       fontFamily: 'Thasadith, sans-serif',
     },
     {
       id: 2,
-      color: '#bedbbb',
+      color: '#ffdd93',
       fontFamily: 'Patrick Hand, cursive',
     },
     {
       id: 3,
-      color: '#8fc0a9',
+      color: '#cbaf87',
       fontFamily: 'Annie Use Your Telescope, cursive',
     },
     {
       id: 4,
-      color: '#decdc3',
+      color: '#463333',
       fontFamily: 'Delius, cursive',
     },
   ];

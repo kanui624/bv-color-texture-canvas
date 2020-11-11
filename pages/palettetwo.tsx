@@ -14,10 +14,10 @@ import feelingTwoStyles from '../styles/feelingTwo.module.css';
 
 const PaletteTwo = () => {
   const colorArr: ColorArray[] = [
-    { id: 1, color: '#16A596', textColor: 'white' },
-    { id: 2, color: '#898b8a', textColor: 'white' },
-    { id: 3, color: '#fae0df', textColor: 'white' },
-    { id: 4, color: '#f6f5f1', textColor: 'white' },
+    { id: 1, color: '#463333', textColor: '#835858' },
+    { id: 2, color: '#835858', textColor: '#463333' },
+    { id: 3, color: '#ebd4d4', textColor: '#835858' },
+    { id: 4, color: '#fff0f0', textColor: '#463333' },
   ];
   return (
     <>

@@ -10,7 +10,7 @@ import quadStyles from '../styles/quad.module.css';
 
 const Quadrants = ({ colors }: { colors: ColorArray[] }) => {
   const quadStyle = 'flex justify-center items-center';
-  const companyName = 'baklavegan';
+  const companyName = 'baklaVegan';
   return (
     <Layout cName="container mx-auto">
       <NavLinks />

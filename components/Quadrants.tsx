@@ -21,10 +21,7 @@ const Quadrants = ({ colors }: { colors: ColorArray[] }) => {
             style={{ backgroundColor: color }}
             className={quadStyle}
           >
-            <h2
-              className={quadStyles.font}
-              style={{ fontFamily: fontFamily, backgroundColor: 'black' }}
-            >
+            <h2 className={quadStyles.font} style={{ fontFamily: fontFamily }}>
               {companyName}
               <br />
               {companyName.toLocaleUpperCase()}
